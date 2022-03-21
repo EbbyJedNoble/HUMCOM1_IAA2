@@ -1,0 +1,17 @@
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,h3 {
+    color: rgb(0, 86, 245);
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+/*Note: Do not add a space between the property value and the unit (such as margin-left: 20 px;). The correct way is: margin-left: 20px;*/
