@@ -1,0 +1,103 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: #293241;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.container, header,section,article,footer {
+    border: 1px solid #F48C05;
+}
+
+article,h3{
+    color: #F48C05;
+}
+
+div,article,footer {
+    margin: 25px;
+}
+
+div {
+    padding: 5px;
+}
+
+header {
+    width: 150px;
+    height: 153px;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    background-color: #F48C05;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+article, h3 {
+    padding-left: 10px;
+}
+
+section {
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: 100% 100%;
+}
+
+.img1 {
+    background-image: url('../images/nhk.jpg');
+}
+
+.img2 {
+    background-image: url('../images/salad.png');
+}
+
+.img3 {
+    background-image: url('../images/emerald.jpg');
+}
+
+section h3 {
+    height: 10%;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 4, 12, 0.3);
+}
+
+p {
+    height: 77%;
+    margin: 0;
+    padding: 10px;
+    color: #FFFFFF;
+    background: rgba(0, 4, 12, 0.3);
+}
+
+a:link,a:visited {
+    color: #FFFFFF
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "• ";
+    color:#F48C05
+}
