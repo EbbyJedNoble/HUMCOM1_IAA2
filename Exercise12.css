@@ -1,0 +1,85 @@
+.container {
+    background-color: #A9A9A9;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 745px;
+}
+
+.section1 {
+    float: left;
+    width: 165px;
+}
+
+.nav2 {
+    height: 432px;
+    line-height: 432px;
+}
+
+.section2 {
+    display: inline-block;
+    width: 350px;
+    margin-left: 1px;
+}
+
+.p2 {
+    display: inline-block;
+    width: 203px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.aside {
+    float: right;
+    width: 90px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.footer1 {
+    height: 50px;
+    line-height: 50px;
+    background-color: #C1C1C1;
+}
+
+.header1,.nav1,.header2,.footer2,.header3,.article1,.footer3,.footer4,.footer1 {
+    margin: 10px;
+}
+
+.section1,.nav2,.p1,.p2 {
+    margin-left: 10px;
+}
+
+.nav2,.p1,.p2,.aside {
+    margin-right: 10px;
+}
+
+.header2,.footer2 {
+    height: 35px;
+    line-height: 35px;
+}
+
+.header3,.p1,.footer3,.footer4 {
+    height: 27px;
+    line-height: 27px;
+ }
+
+.header1,.section1,.section2 {
+    background-color: #D7D7D7;
+}
+
+.nav1,.header2,.nav2,.footer2,.article1 {
+    background-color: #ECEcEC;
+}
+
+.header3,.p1,.footer3,.p2,.aside,.footer4 {
+    background-color: #FFFFFF;
+}
+
+.container,header,nav,section,article,p,aside,footer {
+    border: 1px solid #000000;
+    text-align: center;
+}
