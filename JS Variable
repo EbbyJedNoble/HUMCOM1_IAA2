@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            var myvariable = false; // This is a comment
+            //Comments are not executed
+        </script>
+    </body>
+</html>
