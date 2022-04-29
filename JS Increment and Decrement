@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            var num1 = 5;
+            document.write(num1++);
+            //Output: 6
+
+            /*
+                Increment: var++ or ++var
+                Decrement: var-- or --var
+            */
+        </script>
+    </body>
+</html>
