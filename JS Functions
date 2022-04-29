@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+
+        <script>
+            //Defining a function: function: myFunc(parameters) {code with parameters if needed}
+            function sayHello(who) {
+                document.write("Hello, " + who);
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            //Calling a function: myFunc(arguments if there are);
+            sayHello("Bob");
+            //Output: Hello, Bob
+
+            document.write("<br>");
+
+            sayHello("Mary");
+            //Output: Hello, Mary
+        </script>
+    </body>
+</html>
