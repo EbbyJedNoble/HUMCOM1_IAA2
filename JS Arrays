@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            //Ways of defining arrays:
+            //1: new Array(size);
+            var a = new Array(7);
+            a[0] = "cat";
+            a[1] = "dog";
+            a[2] = 95;
+            a[6] = true;
+
+            //2: new Array(val1,val2,...);
+            var b = new Array("cat","dog",53,true);
+
+            //3: [val1,val2,...]
+            var c = ["dog","cat",3,5,false];
+
+            document.write (a[1]);
+            //Output: dog
+            
+            document.write(a[6]);
+            //Output: true
+        </script>
+    </body>
+</html>
