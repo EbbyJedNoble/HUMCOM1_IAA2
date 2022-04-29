@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            var alpha = "ABCDEFG";
+            var length = alpha.length;
+            document.write(length);
+            //Output: 7
+
+            var result1 = alpha.substring(3,5);
+            document.write(result);
+            //Output: DE
+
+            var result1 = alpha.substring(0,5);
+            document.write(result);
+            //Output: ABCDE
+        </script>
+    </body>
+</html>
