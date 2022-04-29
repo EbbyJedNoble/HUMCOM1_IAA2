@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            //if statement
+            var a = 7;
+            if (a > 10) {
+                alert(a);
+                //Nothing happens
+            }
+
+            var b = 12
+            if (b > 10) {
+                alert(b);
+                /*
+                    Dialogue box: 
+                        JavaScript Alert
+                        12
+                */
+            }
+            
+            //if else statement
+            var c = "Jake";
+            if (a == "Jake") {
+                alert (a) //runs and the if statement ends here
+            } else {
+                alert ("The condition was false");
+
+            }
+            /*
+                Control statement operators:
+                    == - is equal to
+                    != - is not equal to
+                    >, >= - is greater than, is greater than or equal to
+                    <m <= - is lesser than, is lesser than or equal to
+
+        </script>
+    </body>
+</html>
