@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 15</title>
+        <style>
+            body{
+                font-family: 'Arial Narrow'; 
+                margin: 50px
+            }
+            .border{
+                border: 1px solid;
+                padding: 10px;
+                width: 100%;
+            }
+            .pad{
+                padding-right: 50px;
+            }
+            table{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="js/Exercise15.js"></script>
+        <h1>Student Information Sheet</h1>
+        
+        <h2>Personal Info</h2>
+        <Table>
+            <tr>
+                <td class="pad">First Name</td>
+                <td class="border"><script>document.write(first_Name)</script></td>
+            </tr>
+            <tr>
+                <td class="pad">Age</td>
+                <td class="border"><script>document.write(age)</script></td>
+            </tr>
+        </Table>
+
+        <h2>Contact Information</h2>
+        <Table>
+            <tr>
+                <td class="pad">Phone Number</td>
+                <td class="border"><script>document.write(phone_Number)</script></td>
+            </tr><tr>
+                <td class="pad">Email Address</td>
+                <td class="border"><script>document.write(email_Address)</script></td>
+            </tr><tr>
+                <td class="pad">Mailing Address</td>
+                <td class="border"><script>document.write(mailing_Address)</script></td>
+            </tr>
+        </Table>
+
+        <h2>Academic Information</h2>
+        <Table>
+            <tr>
+                <td class="pad">Program</td>
+                <td class="border"><script>document.write(program)</script></td>
+            </tr><tr>
+                <td class="pad">IDnumber</td>
+                <td class="border"><script>document.write(idnumber)</script></td>
+            </tr><tr>
+                <td class="pad">Year Level</td>
+                <td class="border"><script>document.write(year_Level)</script></td>
+            </tr><tr>
+                <td class="pad">Section</td>
+                <td class="border"><script>document.write(section)</script></td>
+            </tr>
+        </Table>
+    </body>
+</html>

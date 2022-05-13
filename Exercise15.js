@@ -1,0 +1,9 @@
+var first_Name = "Ebby Jed";
+var age = "19";
+var phone_Number = "09277227258";
+var email_Address= "20209569@s.ubaguio.edu";
+var mailing_Address= "Yangco Rd., Baguio City";
+var program = "Computer Science";
+var idnumber = "20209569";
+var year_Level = "1st Year";
+var section = "IAA2";
